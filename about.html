@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StMikaChurch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo" for=""><a href="home.html"><img src="./assets/stmika.png" height="50vh" alt="St. Mika"></a></label>
+        <ul>
+            <li><a class="active" id="navtxt" href="home.html">Home (Chakruok)</a></li>
+            <li><a class="active" id="navtxt" href="about.html">About Us (Ng'ewa)</a></li>
+            <li><a class="active" id="navtxt" href="events.html">Events (Chenro)</a></li>
+            <li><a class="active" id="navtxt" href="songs.html">Songs (Wende)</a></li>
+            <li><a class="active" id="navtxt" href="history.html">History (Rapar)</a></li>
+            <li><a class="active" id="navtxtd" href="donate.html">Donation (Chiwo)</a></li>
+        </ul>
+    </nav>
+    <!--ALL CODES WILL BE HERE IN DIFFERENT PAGES-->
+    <section>
+        <div class="dateToday">
+            <p>Today: <span id="datetime"></span></p>
+            <script>var dt = new Date();
+            document.getElementById("datetime").innerHTML=dt.toLocaleString();
+            </script>
+        </div>
+    </section>
+    <!--ALL CODES WILL BE HERE IN DIFFERENT PAGES-->
+    <footer>
+        <div class="ftlogo"><a href="home.html"><img src="./assets/stmika.png" height="50vh" alt="St. Mika"></a></div>
+        <div class="ftgen" id="ftgen">
+            <div>
+                <table>
+                    <tr>
+                        <th><h3 id="fth">QUICK CONTACTS</h3></th>
+                    </tr>
+                    <tr>
+                        <td>Japuonj ALLAN:</td>
+                        <td>+254701266748</td>
+                    </tr>
+                    <tr>
+                        <td>Japuonj ALFAYO:</td>
+                        <td>+254723262529</td>
+                    </tr>
+                    <tr>
+                        <td>Japuonj ZADOCK:</td>
+                        <td>+254726076742</td>
+                    </tr>
+                    <tr>
+                        <td>Jaduong' BARNABA:</td>
+                        <td>+254723241825</td>
+                    </tr>
+                    <tr>
+                        <td>Jaduong' TIMOTHY:</td>
+                        <td>+254724919276</td>
+                    </tr>
+                    <tr>
+                        <td>Jaduong' ALFAYO:</td>
+                        <td>+254722714403</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="fttwo">
+                <h6>Wang' oganda to ng'iyo dalawa...</h6>
+                <a href="home.html"><img src="./assets/humblehand2.png" height="50vh" alt="St. Mika"></a>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <th><h3 id="fth">QUICK INFORMATION</h3></th>
+                    </tr>
+                    <tr>
+                        <td>DEAN:</td>
+                        <td>Ruwe Holy Ghost Church (E.A.)</td>
+                    </tr>
+                    <tr>
+                        <td>DIOCESE:</td>
+                        <td>Kisii Nairobi Diocese.</td>
+                    </tr>
+                    <tr>
+                        <td>PASTORATE:</td>
+                        <td>Nairobo Pastorate.</td>
+                    </tr>
+                    <tr>
+                        <td>CHURCH:</td>
+                        <td>St. Mika Church.</td>
+                    </tr>
+                    <tr>
+                        <td>LOCATION:</td>
+                        <td>Ngomongo Village, Nairobi.</td>
+                    </tr>
+                    <tr>
+                        <td>DIRECTION:</td>
+                        <td><a id="ftlink" href="https://www.google.com/maps/dir//-1.2444665,36.8945122/@-1.2448491,36.8941482,18z">Click to Get Direction</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="ftcopy">
+            <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> <a id="ftlink" href="home.html">St. Mika</a>,</p>
+            <p>All Right Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>

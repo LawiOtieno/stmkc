@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+}
+
+/*Start Nav*/
+nav{
+     background: black;
+     height: 50px;
+     width: 100%; 
+     position: fixed;
+}
+label.logo{
+       line-height: 50px;
+       padding: 0 5 0px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 15px;
+    /*text-transform: uppercase;*/
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+nav ul li a.active{
+    background: white;
+    color: black;
+    transition: .5s;
+}
+nav ul li a:hover{
+    background: red;
+    color: white;
+    transition: .5s;
+}
+#navtxtd{
+    background-color: green;
+}
+#navtxtd:hover{
+    background-color: rgb(13, 49, 13);
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 50px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+/*Start Nav*/
+
+
+
+section{
+    padding-top: 55px;
+}
+.dateToday{
+    background: red;
+    color: white;
+    width: 20%;
+    top: 0%;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 30%;
+    font-size: 150%;
+}
+.dateToday:hover{
+    background: black;
+    color: white;
+}
+
+
+
+/*Start hPage Code*/
+/*End hPage Code*/
+
+
+
+/*Start aPage Code*/
+/*End aPage Code*/
+
+
+
+/*Start ePage Code*/
+/*End ePage Code*/
+
+
+
+/*Start sPage Code*/
+/*End sPage Code*/
+
+
+
+/*Start hPage Code*/
+/*End hPage Code*/
+
+
+
+/*Start dPage Code*/
+/*End dPage Code*/
+
+
+
+/*Start Footer*/
+footer {
+    color: white;
+    background-color: black;
+}
+.ftgen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.fttwo {
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 200%;
+}
+.ftlogo, .ftcopy, .fttwo {
+    text-align: center;
+}
+
+#ftlink {
+    color: white;
+}
+
+#ftlink:hover {
+    color: white;
+    background-color: red;
+}
+
+table {
+    display: flex;
+    border: 1px solid white;
+    border-collapse: collapse;
+    justify-content: space-around;
+}
+tr, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+/*End Footer*/
+
+/*Start Mobile Responsiveness*/
+@media screen and (max-width: 952px){
+    label.logo{
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: white;
+        top: 50px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+    }
+    nav ul li a.active{
+        background: black;
+        color: white;
+        transition: .5s;
+    }
+    nav ul li a:hover{
+        background: red;
+        transition: .5s;
+    }
+    #navtxtd{
+        background-color: green;
+    }
+    #navtxtd:hover{
+        background-color: rgb(13, 49, 13);
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .dateToday{
+        background: red;
+        color: white;
+        width: 40%;
+        text-align: center;
+        border-radius: 5px;
+        display: flex;
+        margin-left: 30%;
+        font-size: 150%;
+    }
+    .dateToday:hover{
+        background: black;
+        color: white;
+    }
+
+
+    /*Start hPage Code*/
+    /*End hPage Code*/
+
+
+
+    /*Start aPage Code*/
+    /*End aPage Code*/
+
+
+
+    /*Start ePage Code*/
+    /*End ePage Code*/
+
+
+
+    /*Start sPage Code*/
+    /*End sPage Code*/
+
+
+
+    /*Start hPage Code*/
+    /*End hPage Code*/
+
+
+
+    /*Start dPage Code*/
+    /*End dPage Code*/
+
+
+
+    /*Start Footer*/
+    footer {
+        color: white;
+        background-color: black;
+    }
+    #ftgen{
+        display: flex;
+        flex-direction: column;
+    }
+    .fttwo {
+        margin-top: 10%;
+        margin-bottom: 5%;
+        margin-right: 5%;
+        margin-left: 5%;
+        font-size: 200%;
+    }
+    .ftlogo, .ftcopy, .fttwo {
+        text-align: center;
+    }
+
+    #ftlink {
+        color: white;
+    }
+
+    #ftlink:hover {
+        color: white;
+        background-color: red;
+    }
+
+    table {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    tr, td {
+        border: 1px solid white;
+        border-collapse: collapse;
+    }
+/*End Footer*/
+}
+/*End Mobile Responsiveness*/
